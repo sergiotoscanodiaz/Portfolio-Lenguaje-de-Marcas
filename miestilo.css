@@ -1,0 +1,29 @@
+/*  hoja de estilos para el portfolio de Lenguajes de Marcas */
+
+body {background-color:rgb(54, 54, 181);
+    font-family: 'Roboto Condensed', sans-serif;}
+#wrapper {width:75%;
+        margin:auto;
+        background-color:white;}
+
+/****** Sticky navbar ********/
+nav {top:0;
+    z-index:99;}
+.bg-black {background-color: rgba(0, 0, 0, 0.678);}
+
+/****** estilo para jumbotron ****/
+.jumbotron {background-image: url("imagenes/hero.jpg");
+            background-size: cover;
+            background-position:center;
+            color: rgba(233, 226, 226, 0.353);}
+
+#contraste-jumbotron {background-color: rgba(0, 0, 0, 0.137);
+                      margin:0 auto;}
+
+/******************estilo de footer*******************/  
+footer {background-color:rgb(61, 60, 62);
+        color: white;}
+   
+footer p {margin: 0;
+          text-align: center;}
+        
